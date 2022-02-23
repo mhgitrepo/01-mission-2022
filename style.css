@@ -1,19 +1,25 @@
 body{
-    width: 1128px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', Yeseva One, cursive,  sans-serif;;
 }
 
 /* Part 01 - Stay Focused on Mission 2022 */
 .flexible-container{
+    width: 1128px;
+    margin: 0 auto 120px;
     display: flex;
-    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
 }
 .half-width img{
     width: 80%;
+}
+.half-width p{
+    width: 430px;
+}
+#mission-image{
     display: block;
     margin-left: auto;
 }
@@ -28,9 +34,9 @@ h1{
 #mission-tiitle-left-liner{
     background: #FF5959;
     width: 4px;
-    height: 126px;
+    height: 123px;
     position: absolute;
-    top: 167px;
+    top: 170px;
     border-radius: 5px;
 }
 .yellow-color{
@@ -45,7 +51,11 @@ h1{
     display: inline-block;
     margin-top: 5px;
 }
-.mission-left{
+.button:hover{
+    background: #eb3b3b;
+    transition: 0.3s;
+}
+#mission-left{
     margin-top: 9%;
 }
 .mission-left p{
@@ -58,20 +68,21 @@ h1{
 }
 
 /* Part 02 - My Mission in 2022 */
-h2{
+.my-mission h2{
     font-size: 48px;
     line-height: 70px;
     font-weight: 600;
     text-align: center;
-}
-.my-mission{
-    
 }
 .one-third-width{
     width: 30%;
     padding: 25px;
     margin: 0 12px;
     border-radius: 26px;
+}
+.one-third-width:hover{
+    box-shadow: 0 15px 25px #00000026;
+    transition: 0.3s
 }
 .one-third-width img{
     width: 40%;
@@ -88,3 +99,112 @@ h2{
 #my-goals-one-third{
     background-color: #FFF4D6;
 }
+
+/* Part 03 - Develop without Limits */
+.develop h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.develop p{
+    width: 570px;
+}
+
+/* Part 04 - Know our Global Community*/
+#global-community img{
+    display: block;
+    margin-left: auto;
+}
+
+/* Part 05 - Contact Form*/
+.contact-form{
+    text-align: center;
+}
+.contact-form h2{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.contact-form p{
+    margin-top: 0px;
+    font-size: 14px;
+}
+.contact-form-container{
+    display: flex;
+}
+.contact-form-container {
+    width: 700px;
+    margin: 70px auto;
+}
+label,input,textarea {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 10px;
+}
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 15px 25px #00000026;
+    border-radius: 5px;
+}
+.input-title {
+    font-size: 14px;
+    color: #808080;
+    font-weight: 600;
+    line-height: 35px;
+}
+input,textarea {
+    width: 100%;
+    border: 1px solid #e1e2eb;
+    padding: 7px 15px;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #808080;
+    line-height: 30px;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background: #FF5959;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background: #eb3b3b;
+    transition: 0.3s;
+}
+.required{
+    color: #FF244A;
+}
+
+/* Part 06 - Footer Area*/
+footer{
+    background-color: #0B0D17;
+    padding: 25px;
+    text-align: center;
+}
+h4{
+    font-family: Yeseva One;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.red{
+    color: #FF5959;
+}
+footer p{
+    font-size: 13px;
+    color: #D9DBE1;
+}
+
